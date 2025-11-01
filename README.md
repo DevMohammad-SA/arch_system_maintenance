@@ -21,6 +21,9 @@ The script performs the following actions:
 5. **Completion Message**
    Displays a summary message when all maintenance tasks are finished.
 
+## Screenshot
+<img width="430" height="373" alt="image" src="https://github.com/user-attachments/assets/8cba2556-4fa9-4ac2-b6a5-b7c96341fc08" />
+
 ## Usage
 
 1. Clone or download this repository.
