@@ -11,7 +11,7 @@ echo -e "${BG}${FG}Removing orphaned packages... ${RESET}"
 orphans=$(pacman -Qdtq || true)
 if [[ -n "$orphans" ]]; then
   sudo pacman -Rns --noconfirm $orphans
-  echo -e "{$ALERT}Removed: $orphans ${RESET}"
+  echo -e "${ALERT}Removed: $orphans ${RESET}"
 else
   echo -e "${INFO}No orphans packages found. ${RESET}"
 fi
@@ -27,4 +27,4 @@ else
   echo -e "${INFO}No leftover configs.${RESET}"
 fi
 
-echo -e "${BG}${FG}System maintenance completed."
+echo -e "${BG}${FG}System maintenance completed.${RESET}"
