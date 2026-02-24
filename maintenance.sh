@@ -17,6 +17,7 @@ else
 fi
 
 echo -e "${BG}${FG}Cleaning old package cache...${RESET}"
+sudo pacman -Sc --noconfirm
 
 echo -e "${BG}${FG}Checking for leftover config files...${RESET}"
 leftovers=$(pacman -Qdt || true)
